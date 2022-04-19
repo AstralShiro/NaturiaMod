@@ -1,1 +1,33 @@
-Naturia is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Name : [i/p58:1109] [c/4eca49:Naturia] [i/p58:1109]
+Version : 0.0.2
+Tags : Decorations
+- - -
+Do u like the nature? 
+u always wanted made ur buildings more beautiful adding the magic touch of the nature? 
+well now u can with Naturia, a mod focused ONLY to give fornitures and insects to catch in any part of the world.
+
+Build fantastic structure, collect all the insects and bugs, give the nature touch to ur buildings with this mod.
+
+[c/4eca49:New Content]
+[c/ffdd60:Update]
+    - Icon
+[c/39dd60:Flowers]
+    - Emperor's Staff (Ground, Wall and Ceiling Version - Flower).
+
+[c/ff4000:Plants]
+    - ///
+
+[c/ff40ff:Insects]
+    - Praying Mantis (Critter - Insect).
+
+Content List:
+    - 1 Flowers
+    - 0 Plants
+    - 1 Insects
+
+- - -
+
+Status mod : In progress
+
+SN Company.
+(enter in our discord to not miss our works outside the terraria).

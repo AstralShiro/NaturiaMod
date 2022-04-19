@@ -1,4 +1,4 @@
-displayName = [i/p57:520] [c/fec2ff:Naturia] [i/p57:520]
+displayName = [i/p58:933] [c/4eca49:Naturia] [i/p58:933]
 author = SN Company
-version = 0.0.1
+version = 0.0.2
 homepage = https://discord.gg/6e5cBqQwaS
