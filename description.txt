@@ -15,10 +15,11 @@ Build fantastic structure, collect all the insects and bugs, give the nature tou
     - Emperor's Staff (Ground, Wall and Ceiling Version - Flower).
 
 [c/ff4000:Plants]
-    - ///
+    - Monstera Adansonii
+    - Zingiber Spectabile
 
 [c/ff40ff:Insects]
-    - Praying Mantis (Critter - Insect).
+    - ///
 
 Content List:
     - 1 Flowers

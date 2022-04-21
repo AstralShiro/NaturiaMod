@@ -9,11 +9,11 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
-using Naturia.Items.Plants.MonsteraAdansonii;
+using Naturia.Items.Plants.RedGinger;
 
-namespace Naturia.Tiles.Plants.ZingiberSpectabileTile
+namespace Naturia.Tiles.Plants.RedGingerTile
 {
-	public class ZingiberSpectabileGroundTile : ModTile
+	public class RedGingerTile : ModTile
 	{
 		public override void SetDefaults()
 		{
@@ -23,27 +23,25 @@ namespace Naturia.Tiles.Plants.ZingiberSpectabileTile
 			Main.tileLavaDeath[Type] = true;
 			TileObjectData.newTile.AnchorBottom = new AnchorData(AnchorType.SolidTile, TileObjectData.newTile.Width, 0);
 			TileObjectData.newTile.UsesCustomCanPlace = true;
+			TileObjectData.newTile.LavaDeath = true;
+			TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16 };
+			TileObjectData.newTile.CoordinateWidth = 16;
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style2xX);
+			
+			TileObjectData.newTile.Width = 2;
 			TileObjectData.newTile.Height = 3;
-			TileObjectData.newTile.CoordinateHeights = new int[]
-			{
-				16,
-				16,
-				16
-			};
-			TileObjectData.addTile((int)base.Type);
 
 			soundType = SoundID.Grass;
 			disableSmartCursor = true;
 
 			TileObjectData.addTile(Type);
 			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Zingiber Spectabile");
-			AddMapEntry(new Color(255, 255, 100), name);
+			name.SetDefault("Red Ginger");
+			AddMapEntry(new Color(255, 50, 100), name);
 			//adjTiles = new int[] { TileID.Sunflower };
 		}
 		public override void KillMultiTile(int i, int j, int frameX, int frameY) {
-			Item.NewItem(i * 16, j * 16, 32, 16, ModContent.ItemType<Items.Plants.ZingiberSpectabile.ZingiberSpectabileGround>());
+			Item.NewItem(i * 16, j * 16, 32, 16, ModContent.ItemType<Items.Plants.RedGinger.RedGinger>());
 		}
 	}
 }
